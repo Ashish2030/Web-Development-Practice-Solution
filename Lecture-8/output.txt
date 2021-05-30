@@ -1,0 +1,14 @@
+
+---------------------Arrays are Reference type----------------
+colors
+(5) ["blue", "teal", "aqua", "violet", "orange"]
+let colorCopy = colors
+undefined
+colorCopy
+(5) ["blue", "teal", "aqua", "violet", "orange"]
+colorCopy.push('black','lightgreen');
+7
+colorCopy
+(7) ["blue", "teal", "aqua", "violet", "orange", "black", "lightgreen"]
+colors
+(7) ["blue", "teal", "aqua", "violet", "orange", "black", "lightgreen"]

@@ -1,0 +1,42 @@
+section {
+  width: 60%;
+  margin: 40px auto;
+}
+
+div {
+  border: 3px solid black;
+  height: 70px;
+  width: 400px;
+  font-size: 1.5rem;
+  font-weight: 100;
+  text-align: center;
+  margin: 20px auto;
+}
+
+div:nth-of-type(1) {
+  transform: translateX(100px);
+}
+
+div:nth-of-type(2) {
+  transform: scale(0.5);
+}
+div:nth-of-type(3) {
+  transform: rotate(0.5turn);
+}
+
+div:nth-of-type(4) {
+  transform: skewX(30deg);
+}
+
+div:nth-of-type(5) {
+  transform: translate(40px, 50px);
+}
+
+div:nth-of-type(6) {
+  transform: translateX(10px) rotate(10deg) translateY(5px);
+}
+
+div:nth-of-type(7) {
+  transform: rotateZ(70deg);
+  transform-origin: left;
+}

@@ -1,0 +1,37 @@
+div {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  background-color: cornflowerblue;
+  display: inline-block;
+}
+
+#static #middle {
+  position: static;
+  top: 100px;
+  left: 200px;
+}
+
+#relative #middle {
+  position: relative;
+  /* top: 100px; */
+  /* left: 100px; */
+  bottom: 50px;
+  right: 50px;
+}
+
+#absolute {
+  position: relative;
+}
+
+#absolute #middle {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+#fixed #middle {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}

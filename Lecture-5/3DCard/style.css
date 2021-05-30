@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+section {
+  perspective: 800px;
+}
+
+section div {
+  height: 300px;
+  width: 500px;
+
+  margin: 0px auto;
+}
+
+section div img {
+  height: 300px;
+  width: 500px;
+}
+
+.side-a,
+.side-b {
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.side-a {
+  z-index: 1;
+}
+
+.side-b {
+  transform: rotateY(180deg);
+  font-size: 1.5rem;
+  background-color: palegoldenrod;
+  padding: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+.wrap {
+  transition: 1s;
+  transform-style: preserve-3d;
+}
+
+.wrap:hover {
+  transform: rotateY(180deg);
+  cursor: pointer;
+}

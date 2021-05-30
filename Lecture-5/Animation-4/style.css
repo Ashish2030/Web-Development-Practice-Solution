@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+div {
+  height: 100px;
+  width: 100px;
+  border: 15px solid black;
+  border-top-color: cornflowerblue;
+  border-bottom-color: darkcyan;
+  border-radius: 50%;
+  animation: 600ms infinite loading;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  25% {
+    transform: rotateZ(90deg);
+  }
+  50% {
+    transform: rotateZ(180deg);
+  }
+  75% {
+    transform: rotateZ(270deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}

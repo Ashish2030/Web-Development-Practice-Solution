@@ -1,0 +1,56 @@
+p2
+{}
+p2.__proto__
+{name: "vivek"}
+p2.__proto__ == p1
+true
+p1.__proto__ 
+{name: "Kartik", age: 25, isAdult: true, sayHello: ƒ}
+p1.__proto__== person
+true
+person.__proto__
+{constructor: ƒ, __defineGetter__: ƒ, __defineSetter__: ƒ, hasOwnProperty: ƒ, __lookupGetter__: ƒ, …}
+person.__proto__==Object.prototype
+true
+Object.prototype.__proto__ 
+null
+p1
+{name: "vivek"}
+p1.hasOwnProperty('age')
+false
+p1.hasOwnProperty('name')
+true
+p1.hasOwnProperty('sayHello')
+false
+
+////////////////////////////////////////////////////
+
+let arr = [1,2,3,4,5];
+undefined
+arr
+(5) [1, 2, 3, 4, 5]
+Array.prototype.pop=function(){
+    console.log('I am not gonna pop it now')
+}
+ƒ (){
+    console.log('I am not gonna pop it now')
+}
+arr.pop()
+VM1065:2 I am not gonna pop it now
+undefined
+
+
+//////////////////////////////////////////////////
+
+let n=100;
+undefined
+n.__proto__ == Number.prototype
+true
+Number.prototype.__proto__ == Object.prototype
+true
+let str ="Sabeel";
+undefined
+str.__proto__ == String.prototype
+true
+String.prototype.__proto__ == Object.prototype
+true

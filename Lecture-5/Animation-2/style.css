@@ -1,0 +1,31 @@
+div {
+  height: 50px;
+  width: 80vw;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: cyan;
+  margin: 10px;
+  animation: 3s 2 forwards loader;
+}
+
+@keyframes loader {
+  from {
+    width: 0vw;
+  }
+  to {
+    width: 80vw;
+  }
+}
+
+div:nth-of-type(1) {
+  animation-timing-function: ease-in;
+}
+div:nth-of-type(2) {
+  animation-timing-function: ease-in-out;
+}
+div:nth-of-type(3) {
+  animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+div:nth-of-type(4) {
+  animation-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}

@@ -1,0 +1,27 @@
+h1 {
+  font-size: 5.5rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) and (orientation: landscape) {
+  h1 {
+    color: red;
+    font-size: 3.5rem;
+    background-color: cornflowerblue;
+  }
+}
+
+@media all and (max-width: 400px) {
+  h1 {
+    color: green;
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 500px), (orientation: landscape) {
+  h1 {
+    color: palevioletred;
+    font-size: 3.5rem;
+    background-color: paleturquoise;
+  }
+}

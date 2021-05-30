@@ -1,0 +1,60 @@
+div {
+  height: 200px;
+  width: 400px;
+  border: 2px solid black;
+  background-color: peru;
+}
+
+div:hover {
+  border-radius: 50%;
+  background-color: aqua;
+  cursor: pointer;
+}
+
+input:focus {
+  background-color: aquamarine;
+}
+
+button:active {
+  background-color: palegreen;
+}
+
+a:visited {
+  color: red;
+}
+
+input:disabled {
+  background-color: cornflowerblue;
+}
+
+li:nth-of-type(3n + 1) {
+  background-color: gray;
+}
+
+li:first-child {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+li:last-child {
+  text-decoration: line-through;
+  font-weight: 700;
+}
+
+a::before {
+  content: "♥";
+}
+
+a::after {
+  content: "♥";
+}
+
+p::first-letter {
+  font-size: 40px;
+  color: brown;
+  font-weight: 700;
+}
+
+p::first-line {
+  text-decoration: underline;
+}

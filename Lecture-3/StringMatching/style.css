@@ -1,0 +1,52 @@
+li {
+  border: 1px solid black;
+}
+
+/* Starts with */
+a[href^="http"] {
+  background-color: cyan;
+}
+
+/* Ends With */
+a[href$="in"] {
+  text-transform: uppercase;
+  color: red;
+}
+
+/* Present Anywhere */
+
+a[href*="coding"] {
+  text-decoration: underline;
+  font-weight: 600;
+  color: palevioletred;
+}
+
+#para {
+  color: red;
+}
+
+.one {
+  color: green;
+}
+
+.two {
+  font-weight: bold;
+}
+
+div {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+}
+
+div:nth-of-type(1) {
+  background-color: #e9c46a;
+}
+
+div:nth-of-type(2) {
+  background-color: rgb(30, 200, 40);
+}
+
+div:nth-of-type(3) {
+  background-color: rgba(40, 30, 180, 0.7);
+}

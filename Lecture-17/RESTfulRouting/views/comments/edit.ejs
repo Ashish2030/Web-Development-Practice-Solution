@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit</title>
+</head>
+<body>
+
+    <h1>Edit</h1>
+
+    <fieldset>
+    <legend>Edit Comment</legend>
+
+    <form method="POST"  action="/comments/<%= fComment.id %>?_method=PATCH">
+        <label for="comment">Comment Text</label>
+        <br>
+        <br>
+        <textarea name="comment" cols="30" rows="5">
+           <%= fComment.comment %>
+        </textarea>
+        <br>
+        <br>
+        <button>Save</button>
+    </form>
+</fieldset>
+    
+</body>
+</html>

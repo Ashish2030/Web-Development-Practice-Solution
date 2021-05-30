@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+
+
+    <h1>All Products</h1>
+
+
+    <ul>
+
+        <%for(let product of products){%>
+            <li> <strong><%= product.name %></strong> 
+                <a href="/products/<%= product._id %>">Details</a>
+                <a href="/products/<%= product._id %>/edit">Edit</a>
+
+                <form style="display: inline;" method="POST" action="/products/<%= product._id %>?_method=DELETE">
+                    <button >Delete</button>
+                </form>
+
+                <ul>
+                    <li>$<%= product.price %></li>
+                    <li><%= product.desc %></li>
+                </ul>
+            </li>
+        <%}%>
+
+    </ul>
+
+
+    <a href="/products/new">Add New Product</a>
+
+
+    
+</body>
+</html>

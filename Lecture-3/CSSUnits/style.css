@@ -1,0 +1,35 @@
+/* ol {
+  font-size: 100px;
+} */
+
+/* li {
+  font-size: 40%;
+} */
+
+div {
+  border: 2px solid black;
+  width: 400px;
+  height: 500px;
+}
+p {
+  border: 1px solid gray;
+  width: 90%;
+  height: 60%;
+}
+
+/* li {
+  font-size: 1.4em;
+} */
+
+/* html {
+  font-size: 10px;
+} */
+
+li {
+  font-size: 2rem;
+}
+
+#para {
+  font-size: 50px;
+  margin-left: 2em;
+}

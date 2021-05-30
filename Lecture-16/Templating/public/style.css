@@ -1,0 +1,9 @@
+body {
+  background-color: aqua;
+}
+
+h1 {
+  text-shadow: 1px 2px 3px white;
+  color: red;
+  border: 2px solid black;
+}

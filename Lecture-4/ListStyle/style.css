@@ -1,0 +1,10 @@
+ul {
+  /* list-style-image: url("https://mdn.mozillademos.org/files/11981/starsolid.gif"); */
+  /* list-style-type: "\1F4E7"; */
+  list-style: inside "\1F4E7";
+}
+
+li {
+  border: 1px solid black;
+  list-style-position: inside;
+}

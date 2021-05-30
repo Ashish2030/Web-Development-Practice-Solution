@@ -1,0 +1,7 @@
+.row {
+  background-color: cyan;
+}
+
+.row div {
+  border: 1px solid black;
+}

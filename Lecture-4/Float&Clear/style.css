@@ -1,0 +1,14 @@
+article img {
+  width: 500px;
+  float: left;
+  margin-right: 20px;
+}
+
+#para {
+  clear: both;
+}
+
+#special {
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+}

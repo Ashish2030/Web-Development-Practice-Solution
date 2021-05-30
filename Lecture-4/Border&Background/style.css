@@ -1,0 +1,31 @@
+article {
+  width: 70%;
+  margin: 30px auto;
+}
+
+h1 {
+  /* border-style: solid;
+  border-width: 5px;
+  border-color: #118ab2; */
+
+  border: 5px solid #118ab2;
+  padding: 20px;
+  border-radius: 10px 30px;
+}
+
+p {
+  border-left: 5px solid #118ab2;
+  padding-left: 10px;
+}
+
+section {
+  width: 70%;
+  height: 70vh;
+  border: 10px solid #ccc;
+  margin: 10px auto;
+  background-image: url("https://images.unsplash.com/photo-1612117189122-6b065b74f4bd?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDI5fEJKSk10dGVESkE0fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: cornflowerblue;
+}

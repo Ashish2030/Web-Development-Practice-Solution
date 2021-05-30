@@ -1,0 +1,38 @@
+p {
+  white-space: nowrap;
+  overflow: scroll;
+  text-overflow: ellipsis;
+}
+
+p:hover {
+  overflow: scroll;
+  text-overflow: clip;
+  cursor: pointer;
+}
+
+article {
+  width: 40%;
+  border: 1px solid black;
+}
+
+div {
+  border: 2px solid black;
+  background-color: palevioletred;
+  margin: 20px;
+  max-width: 600px;
+  min-width: 400px;
+}
+
+.one {
+  width: 150px;
+  height: 150px;
+  border: 2px solid black;
+  background-color: coral;
+  display: inline-block;
+}
+
+section div:nth-of-type(2) {
+  background-color: cyan;
+  visibility: hidden;
+  /* display: none; */
+}

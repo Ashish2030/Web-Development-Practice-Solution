@@ -1,0 +1,10 @@
+s1
+Student {name: "Kartik", age: 25, sayHello: ƒ}
+s1.sayHello()
+app.js:7 Hello from Kartik
+undefined
+s2
+Student {name: "Vivek", age: 21, sayHello: ƒ}
+s2.sayHello()
+app.js:7 Hello from Vivek
+undefined

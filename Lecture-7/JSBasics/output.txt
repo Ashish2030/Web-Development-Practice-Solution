@@ -1,0 +1,119 @@
+console.log('Hello')
+VM389:1 Hello
+undefined
+console.warn('Hello')
+VM396:1 Hello
+(anonymous) @ VM396:1
+undefined
+console.error('This is a error')
+VM411:1 This is a error
+(anonymous) @ VM411:1
+undefined
+console.dir('Hello Welcome to JS')
+
+-------------------------------------------------------
+2+3-4/2*6
+-7
+2+3-4/(2*6)
+4.666666666666667
+10/0
+Infinity
+10-'asdvnbas';
+NaN
+10+NaN
+NaN
+10/NaN
+NaN
+10-NaN
+NaN
+10*NaN
+NaN
+10**NaN
+NaN
+
+--------------------------------------------------
+
+let isRaining = true;
+undefined
+isRaining
+true
+isRaining=false;
+false
+let fullName = "Sabeel Khan";
+undefined
+fullName
+"Sabeel Khan"
+typeof fullName
+"string"
+fullName[0];
+"S"
+fullName[1];
+"a"
+fullName[2];
+"b"
+fullName.length
+11
+
+---------------------------------------------------------------------
+let a;
+undefined
+a
+undefined
+let y=null;
+undefined
+y
+null
+
+---------------------------------------------------------------
+
+let str = '999';
+undefined
+typeof str
+"string"
+str = parseInt(str)
+999
+typeof str
+"number"
+
+
+String Properties--------------------------------------------
+
+let str = 'Hello World';
+undefined
+str
+"Hello World"
+let str = 'Hello World";
+VM1549:1 Uncaught SyntaxError: Invalid or unexpected token
+let str = 'Name of my friend is 'vivek'';
+VM1576:1 Uncaught SyntaxError: Unexpected identifier
+let str = 'Name of my friend is "vivek"';
+undefined
+str
+"Name of my friend is "vivek""
+let str = 'Name of my friend is \'vivek\'';
+undefined
+str
+"Name of my friend is 'vivek'"
+str.length
+28
+
+
+--------------------------------STRING METHODS------------------
+
+let msg = 'Leave me alone i hate u plzzz!!!!';
+undefined
+msg
+"Leave me alone i hate u plzzz!!!!"
+msg.toUpperCase()
+"LEAVE ME ALONE I HATE U PLZZZ!!!!"
+msg
+"Leave me alone i hate u plzzz!!!!"
+let angryMsg = msg.toUpperCase();
+undefined
+angryMsg
+"LEAVE ME ALONE I HATE U PLZZZ!!!!"
+angryMsg.toLowerCase()
+"leave me alone i hate u plzzz!!!!"
+
+
+

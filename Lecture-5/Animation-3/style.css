@@ -1,0 +1,27 @@
+div {
+  height: 200px;
+  width: 190px;
+  /* background-image: url("https://interactive-examples.mdn.mozilla.net/media/examples/firefox-logo.svg"); */
+  margin: 20px auto;
+  animation: 900ms infinite ease-in alternate drop;
+}
+
+div img {
+  height: 200px;
+  width: 190px;
+  animation: 2s infinite alternate rotate;
+}
+@keyframes drop {
+  from {
+    transform: translateY(10px);
+  }
+  to {
+    transform: translateY(573px);
+  }
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
